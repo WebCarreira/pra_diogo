@@ -34,7 +34,7 @@ main > section{
 .ufcds > div > a > img{
     width: 200px;
     height: auto;
-    border-radius: 25%;
+    border-radius: 5%;
 }
 
 .ufcds{
