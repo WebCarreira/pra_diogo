@@ -39,4 +39,10 @@ main > section{
 
 .ufcds{
     background-color: #EEFFF7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ufcd{
+    margin: 15px;
 }
