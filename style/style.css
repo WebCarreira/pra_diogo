@@ -46,3 +46,13 @@ main > section{
 .ufcd{
     margin: 15px;
 }
+
+.btn-img{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.btn-img:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+}
