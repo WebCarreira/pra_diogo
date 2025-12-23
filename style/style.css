@@ -8,11 +8,12 @@ body{
     width: 99vw;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    background-color: #EEFFF7;
+    /*background-color: #EEFFF7;*/
+    background-image: url(../img/fundo_mistico.jpg);
 }
 
 header > h1{
-    color: #111111;
+    color: #e0e0e1;
 }
 
 header > div > img{
@@ -25,10 +26,11 @@ p{
     color:#333333;
 }
 
-main > section{
+main > .boxes{
     background-color: #e0e0e1;
     margin: 10px;
     padding: 5px;
+    opacity: 0.5;
 }
 
 .ufcds > div > a > img{
@@ -38,7 +40,7 @@ main > section{
 }
 
 .ufcds{
-    background-color: #EEFFF7;
+    /*background-color: #EEFFF7;*/
     display: flex;
     flex-wrap: wrap;
 }
