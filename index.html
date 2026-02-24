@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style_login.css">
     <title>PRA - Diogo Carreira</title>
 </head>
 <body>
@@ -15,125 +15,18 @@
         <h1>PRA's - Diogo Carreira</h1>
     </header>
     <main>
-        <section class="ufcds">
-            <div class="ufcd">
-                <a href="#ufcd_7846">
-                    <img src="img/ufcd7846.png" class="btn-img" alt="Noções básicas de informática">
-                </a>
+      <div class="main-container">
+        <div class="search-box">
+            <h2>Coloque o número da UFCD:</h2>
+            <div class="input-group">
+                <input type="number" id="ufcdInput" step="1" min="0" placeholder="Exemplo: 10798">
+                <button type="button" id="searchBtn">Pesquisar</button>
+                <p id="erroMsg" style="color:red; display:none; margin-top:10px;">UFCD não encontrada</p>
             </div>
-            <div class="ufcd">
-                <a href="#ufcd_0769">
-                    <img src="img/ufcd0769.png" class="btn-img" alt="Arquitetura interna do computador">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0770">
-                    <img src="img/ufcd0770.png" class="btn-img" alt="Dispositivos e periféricos">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0771">
-                    <img src="img/ufcd0771.png" class="btn-img" alt="Conexões de rede">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0797">
-                    <img src="img/ufcd0797.png" class="btn-img" alt="Sistemas operativos - Tipologias">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0798">
-                    <img src="img/ufcd0798.png" class="btn-img" alt="Utilitários">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0799">
-                    <img src="img/ufcd0799.png" class="btn-img" alt="Sistemas de rede local">
-                </a>
-            </div>
-            <div class="ufcd">
-                <a href="#ufcd_0802">
-                    <img src="img/ufcd0802.png" class="btn-img" alt="Processamento computacional">
-                </a>
-            </div>
-        </section>
-        <section id="ufcd_7846" class="boxes">
-            <h2>UFCD 7846 - Informática Noções Básicas</h2>
-            <p>Nesta UFCD ficámos a conhecer a origem dos computadores e a sua evolução, desde os primeiros computadores
-                 que ocupavam salas inteiras até aos computadores de hoje em dia (portáteis e desktops que cabem numa 
-                 secretária). Aprendemos também a diferença de Hardware e Software, em que nenhum deles funciona 
-                 sem o outro. Depois entrando mais na parte de software, conhecemos o Google Docs que é um editor 
-                 de texto, que nos permite fazer documentos formais ou informais, profissionais ou pessoais, onde 
-                 podemos também formatar ao nosso gosto, mudar estilo, familia e cor de texto, centrar o texto 
-                 na página, criar índices automáticos, entre muitas outras coisas. Também temos o Google sheets, 
-                 que é um editor de folhas de cálculo, onde podemos criar tabelas, gráficos, dashboards, etc. Prático 
-                 para controlo de orçamentos desde familiar a empresarial, podendo até fazer um controlo de stock e 
-                 faturação sem ter de gastar dinheiro em programas de gestão de stock ou faturação. Para apresentar 
-                 trabalhos aprendemos também a usar o Google Slides, onde podemos fazer apresentações animadas e 
-                 personalizadas para apresentar um tema ao público. Dispõe de vários modelos pré-feitos que podemos 
-                 utilizar e falámos também nas melhores estratégias de criação e apresentação para que o público não 
-                 perca o foco da apresentação. Estas 3 ferramentas Google Docs, Sheets e Slides são práticas porque 
-                 por serem online, ambas permitem trabalho corporativo em simultâneo, a sua única desvantagem é que se 
-                 não houver internet, não funciona. Por falar em internet, também falámos na diferença entre a internet, 
-                 conexão mundial entre servidores e dispositivos usando os protocolos TCP/IP, e o www (world wide web), 
-                 serviço que funciona dentro da internet, que contém todas as páginas/sites que acedemos nos nossos 
-                 equipamentos, usando o protocolo HTTP/HTTPS. Concluímos com os discos externos, equipamentos de 
-                 armazenamento portáteis, e com as impressoras jato de tinta e a laser.</p>
-            <p>Na minha vida já usei várias vezes estas ferramentas, não do google, mas da microsoft office. Comecei na escola, para fazer os trabalhos das disciplinas com o word e powerpoint. Mais tarde aprofundei no excel para controlo de orçamento financeiro pessoal, tive uma empresa onde também usava o excel para controlo de stock e gestão de contabilidade e como também sou formador uso muito o powerpoint para fazer as apresentações. Numa visão profissional na área de programador, é muito importante perceber todos os conceitos dados nesta UFCD, porque quando fazemos um programa temos de ter noção que tipo de dispositivos vão usar esse programa e que hardware e software é que eles têm, para que tudo funcione como espectável.</p>
-        </section>
-        <section id="ufcd_0769" class="boxes">
-            <h2>UFCD 0769 - Arquitetura Interna do Computador</h2>
-            <p>Nesta UFCD aprendemos como funciona o software dentro do hardware, ou seja, o que acontece quando realizamos uma tarefa no computador, de que forma essa tarefa afetará o desempenho do sistema. Como é distribuida a memória e as prioridades de execução de tarefas no sistema operativo. Pessoalmente é bom saber para termos a noção do funcionamento do computador e quando às vezes dizemos que o computador está lento, conseguimos depois desta UFCD, perceber o que poderá estar a acontecer. A nível profissional, como programador, é muito importante perceber como cada componente funciona e a responsabilidade deles em cada tarefa que se vai executar. O contato que tenho com a programação é apenas a nível de front-end, onde utilizo HTML, CSS e JavaScript para criação de websites que aprendi através de livros que comprei, alguns cursos que adquiri na Udemy e vendo muitos vídeos no youtube. Nesta área, a ideia que tenho e da pouca experiência que tenho (apenas fiz projetos próprios) o hardware do computador "não é tão importante" para o seu desenvolvimento, porque é mais importante a rapidez, desempenho e segurança do servidor onde fica alojado. No backend, em programas para computadores ou aplicações para dispositivos (telemóveis, tablets, etc) não tinha ideia da importância que tem cada componente de hardware de um computador, principalmente por questões de segurança.Neste contexto tenho algumas luzes de Python, mas nada de aprofundado.</p>
-        </section>
-        <section id="ufcd_0770" class="boxes">
-            <h2>UFCD 0770 - Dispositivos e Periféricos</h2>
-            <p>Nesta UFCD aprendemos como funcionam os componentes de uma motherboard, os diferentes tipos de discos HDD, SSD e qual o desempenho e características de cada um. Falámos também das interfaces IDE, SATA, SCSI, placas de vídeo, barramentos gráficos e conectores. Por fim abordámos as memórias RAM, diferenças, características e desempenho de cada tipo (DDR3, DDR4, DDR5 e DDR6) e impressoras a jato de tinta e laser bem como outros periféricos. Tanto a nivel pessoal como profissional é bom saber como funciona um computador e os seus integrantes, neste caso os componentes físicos mais importantes que são a motherboard, processador, discos, gráfica, e memórias ram, porque de hoje em dia a informática está presente em tudo e um computador seja fixo ou portátil deixou de ser considerado lazer e passou a ser uma necessidade básica para qualquer pessoa. Quando trabalhei numa empresa de reparações informática, estes conhecimentos foram importantes para poder exercer as minhas funções, até porque graças a esses conhecimentos construí o meu próprio computador fixo, com os componentes que quiz e achei melhor para a utilização que lhe dou, em vez de comprar um computador já construido pelas lojas, porque muitas vezes os que as lojas vendem já feitos, têm boa memória ram, mas depois têm um disco e gráfica mais fracos, ou têm um bom processador e memória ram mas a gráfica é fraca para a utilização que se pretende.</p>
-        </section>
-        <section id="ufcd_0771" class="boxes">
-            <h2>UFCD 0771 - Conexões de Rede</h2>
-            <p>Nesta UFCD aprendemos as 7 camadas do modelo OSI, <strong>1 - Física</strong>, são os equipamentos e meios de transmissão, <strong>2 - Enlace de dados</strong>, a sua função é o endereçamento físico, o enlace ponto a ponto, a transmmissão confiável dos quadros, <strong>3 - Rede</strong>, a sua função é o endereçamento lógico e o estabelecimento de rotas, <strong>4 - Transporte</strong>, a sua função é controlar o fluxo e integridade da informação e a segmentação dos dados, <strong>5 - Sessão</strong>, a sua função é iniciar, manter e terminar a comunicação entre dispositivos, <strong>6 - Apresentação</strong>, a sua função é converter os diferentes códigos ou formatos, criptografia e <strong>7 - Aplicação</strong>, a sua função é fazer a interface com as aplicações do computador (HTTP - Web, FTP - Transferência de arquivos, SMTP - Email).</p> 
-            <p>Depois no modelo TCP/IP passamos a ter apenas 5 camadas, 1 - Física, que são os meios guiados (cabos e fibra ótica) e não guiados (redes sem fio), <strong>2 - Enlace</strong>, que consiste na transmissão dos bits (entrega nó a nó), <strong>3 - Rede</strong>, responsável pelo roteamento dos dados (endereço IP), <strong>4 - Transporte</strong>, consite nos segmentos TCP, UDP, <strong>5 - Aplicação</strong>, consiste em aplicações como transferência de arquivos, email, navegação web, etc.</p> 
-            <p>Temos também 4 tipos de rede e ligação, a <strong>PAN - Personal Area Network</strong>, que conecta, por exemplo, um smartwatch ao telemóvel através de uma rede sem fio. A <strong>LAN - Local Area Network</strong>, é uma rede local, que conecta vários equipamentos no mesmo edifício. <strong>MAN - Metropolitan Area Network</strong>, conecta vários equipamentos em diferentes edifícios mas dentro da mesma cidade. <strong>WAN - Wide Area Network</strong>, é a rede de internet global.</p> 
-            <p>Podemos conectar o nosso computador a uma rede através de um adaptador ethernet, por cabo, ou através de um adaptador wi-fi, para redes sem fios. Podemos também utilizar um adaptador de bluetooth para podermos passar alguma informação entre dois equipamentos ou conectarmo-nos a uma coluna sem fios, rato, teclado, etc.</p> 
-            <p>Para espalharmos o sinal de rede podemos usar um <strong>HUB</strong>, que funciona apenas como extensor de rede, ou seja, toda a informação disponível estará acessivel a qualquer equipamento ligado a este mesmo dispositivo. Um <strong>SWITCH</strong>, funciona como extensor, mas encaminha dados específicos para o computador de destino, com base no endereço MAC numa LAN. Ou um <strong>ROUTER</strong>, que conecta diretamente na rede de internet, encaminhando dados específicos para equipamentos específicos com base no endereço IP.</p> 
-            <p>Depois ficámos também a conhecer um simulador de projectos de rede, que é o <strong>Cisco Packet Tracer</strong>. É interessante e futuramente será essêncial saber mexer nele, para podermos simular projectos e estruturas de rede específicas.</p>
-            <p>A nível pessoal já utilizei, routers, switch e servidores, à uns anos participava muito em LAN Party's onde juntávamos alguns amigos e jogávamos em rede vários jogos. Também numa loja de informática trabalhei com algumas destas configurações que falámos nesta ufcd. Saber trabalhar com estes equipamentos é sempre vantajoso porque evitamos de ter os equipamentos interligados por cabo, com cabos a estorvar, quando os podemos interligar por Wi-Fi.</p>
-            <p>No ponto de vista do futuro como programador informática, ter conhecimento sobre as redes é importante para conectar possiveis softwares que venha a criar, a servidores, bases de dados entre outras funcionalidades que implique ligações de rede.</p>
-        </section>
-        <section id="ufcd_0797" class="boxes">
-            <h2>UFCD 0797 - Sistemas Operativos - Tipologias</h2>
-            <p>Nesta UFCD falámos em sistemas operativos, cuja função é gestão de todo o hardware e software inseridos no equipamento. O tipo de sistema operativo varia consoante o equipamento e interface a que nos referimos. Por exemplo pode ter uma <strong>interface por Linha de Comandos</strong>, em que para ser utilizados é necessário conhecimento técnico para a sua utilização, normalmente utilizado em máquinas industriais. Pode também conter uma <strong>interface Gráfica</strong>, que é uma equipamento mais userfriendly, mais fácil de utilizar e intuitivo, como um computador. Por fim pode ter também uma <strong>interface Móvel/Voz</strong> geralmente usado em equipamentos móveis como os smartphones e tablets.</p>
-            <p>Falando em topologia dos sistemas operativos temos os <strong>Monotarefa</strong>, que executam apenas uma tarefa decada vez, ou seja, para passarmos à tarefa seguinte temos de fechar a tarefa anterior. Neste sentido temos os <strong>Monoutilizadores</strong>, como computadores pessoais, em que apenas usa um utilizador de cada vez. Depois temos os sistemas <strong>Multitarefa</strong>, como os computadores, onde podemos fazer várias tarefas em simultâneo e neste sentido os sistemas <strong>Multiutilzador</strong>, que são sistemas em que vários utilizadores podem trabalhar em simultâneo cada um com o seu login de acesso. Temos também os sistemas <strong>Centralizados</strong>, em que funcionam a partir de um servidor, os sistemas <strong>Embarcados</strong>, que são feitos para equipamentos com uma utilização específica, por exemplo um tensiómetro, tem um sistema embarcado cuja função é apenas avaliar a tensão arterial de uma pessoa. Temos também os sitemas em <strong>Tempo Real</strong> que se divide em 3 tipos, o <strong>Duro</strong>, em que tem de dar uma resposta imediata, caso não funcione haverá danos graves, o <strong>Intermédio</strong>, em que a resposta pode ter um delay que os danos não serão significativos e o <strong>Suave</strong>, em que o tempo de reação não é importante, o importante é que reaja. Por fim temos os sistemas <strong>Móveis</strong>, como Android e IOS usados em tablets e smartwathes</p>
-            <p>Antes de instalarmos um sistema operativo ou qualquer tipo de software, convém verificarmos primeiro se o nosso equipamento tem os <strong>requisitos mínimos</strong> para que possa funcionar corretamente. Para instalar o Windows 11, primeiro que tudo devemos fazer um <strong>backup</strong> de toda a informação para que não arrisquemos a perder dados importantes Depois podemos fazer de 2 formas, ou através do nosso próprio disco interno, em que fazemos download do instalador do windows, no próprio site da microsoft, e quando o executamos podemos <strong>Atualizar o sistema operativo</strong> que já temos e desta forma normalmente não perdemos a informação, porque apenas os ficheiros do sistema operativo serão alterados, ou então podemos instalar de forma <strong>Personalizada/Avançada</strong>, que nos permite fazer uma instalação limpa, todo o disco será apagado e toda a informação será perdida. Desta forma também eliminamos possiveis virus e malwares que possam estar entranhados no nosso computador.</p>
-            <p>De igual forma também podemos instalar a partir de <strong>periféricos externos</strong>, como uma <strong>pen, DVD ou disco externo</strong> para isso temos de criar um ficheiro de arranque no periférico pretendido e depois na BIOS/UEFI do nosso computador temos de alterar esse periférico como prioridade 1 no Boot, para que o computador quando ligar entre pelo boot desse periférico. Após o arranque pelo periférico, é tudo feito da mesma forma que anteriormente referi, ou atualizamos ou escolhemos uma instalação personalizada/avançada.</p>
-            <p>Na pós instalação do windows temos de verificar se existem <strong>atualizações do sistema</strong>, caso existam, devemos intalar, tal como devemos <strong>instalar as drivers</strong> e <strong>configurar os periféricos</strong> necessários e <strong>personalizar o ambiente de trabalho</strong>, barra de tarefas, de ferramentas ,etc conforme as necessidades do utilizador, para que não estejamos a entupir o sistema com configurações e softwares que o utilizador não vai utilizar. Após tudo feito, temos de ir fazendo sempre backups regulares para nunca corrermos o risco de perder dados importantes, convém irmos sempre atualizando o sistema operativo, que por vezes fazem atualizações de segurança muito importantes para manter o nosso computador seguro. Fora isso, devemos ter cuidado com os softwares que instalamos, devemos recorrer a softwares de fontes fidedignas e ter sempre cuidado com o links que abrimos ou sites que visitamos, para não apanharmos malware ou phishing.</p>
-            <p>Esta matéria será essencial tanto a nível pessoal como profissional, porque é importante perceber como se instala um S.O. e como se prepara o computador para se poder utilizar, consoante as nossas necessidades. A nível de futuro na área de programação é fulcral perceber como tudo funciona para que possamos fazer o código da forma mais acertada e limpa possível.</p>
-            <p>Eu já trabalhei numa loja de informática e já executei estes procedimentos muitas vezes, quer para os meus próprios computadores, quer para clientes e sempre ajustei o Pós Instalação do S.O. consoante as necessidades dos clientes.</p>
-        </section>
-        <section id="ufcd_0798" class="boxes">
-            <h2>UFCD 0798 - Utilitários</h2>
-            <p>Nesta ufcd falámos em utilitários, que resumidamente são todos os programas que usamos nos nossos equipamentos e nos ajudam a realizar tarefas. Por exemplo para escrevermos um texto podemos usar o microsoft word, este software é um utilitário de escrita. Queremos enviar, receber e organizar emails, o microsoft outlook é um utilitário de gerenciador de emails. Temos os antivirus, são utilitários de monitorização e segurança, porque vão analisar o nosso equipamento para verificar se tem algum malware, caso tenha irá de imediato tomar ações, apagar ou colocar esse ficheiro afetado em quarentena. Esta ufcd é importante para percebermos que realmente sem pensarmos o que realmente eram, sempre os utilizámos. Cada vez mais com a evolução da informática e a criação da inteligência artificial, estes utilitários serão integrados pela IA e irá facilitar muito a utilização por parte dos utilizadores porque sem nos apercebermos temos resultados mais completos do que realmente desejávamos. Por exemplo, um estudante, com a introdução da IA um simples bloco de notas poderá fazer a organização e resumir automaticamente as notas que fazemos e até mostrar um dashboard com a evolução das matérias entre muitas outras utilidades que poderão ser criadas e nos irão facilitar o trabalho.</p>
-        </section>
-        <section id="ufcd_0799" class="boxes">
-            <h2>UFCD 0799 - Sistemas de Rede Local</h2>
-            <p>Numa fase inicial desta ufcd abordámos os conceitos fundamentais que permitem a comunicação entre dispositivos, como Topologias e Meios físicos, como se ligam e que tipos de ligações podemos usar (cabos UTP, Fibra ótica), Modelo OSI e TCP/IP, que estuda as camadas de rede para facilitar o diagnóstico de falhas de comunicação e Equipamentos, diferenças entre HUBS, SWITCHES e ROUTERS.
-            No segundo módulo aprendemos a planear e instalar um servidor, um servidor é o "cérebro" da rede e o planeamento é crucial para garantir a escalabilidade e disponibilidade. Neste tema abordámos os requisitos de hardware, CPU, RAM e armazenamento (RAID) de acordo com o número de utilizadores necessários. Escolha do SO, normalmente usados o windows server ou distribuições linux como ubuntu server ou debian. Na instalação, a configuração de funções base, como o particionamento de discos.
-            Após a instalação, entra a fase de administração contínua, onde abordámos os Serviços de Diretório, a implementação de Active Directory (AD) para gestão centralizada. E serviços de rede essenciais, como o DHCP, que é a atribuição automática de IP's e o DNS, que é a tradução de nomes de domínio em endereços IP.
-            Uma rede só é funcional se os postos de trabalho (clientes) comunicarem corretamente com o servidor, para isso podemos usar o servidor de Domínio que é a gestão centralizada dos clientes.Existem também as contas locais, em que o computador é o próprio dono e cada utilizador terá de ser criado e gerido através dele próprio e as contas de domínio, que são contas geridas automaticamente pelo servidor. É o protocolo IPV4/IPV6 que permite essa comunicação com o servidor.
-            Focando na eficiência operacional, na experiência do utilizador e na criação de regras, o GPO (Group Policy Objects), aplica as regras automaticamente, como impedir acesso ao painel de controlo, mapear impressoras, etc. As regras definidas por GPO sobrepõem-se a qualquer regra de partilha que seja definida. Na partilha de recursos, possibilita a criação de pastas partilhadas com permissões específicas (Leitura, Escrita e Execução). Com o mapeamento de unidades podemos garantir que o utilizador acede aos seus ficheiros no servidor como se estivessem no seu próprio computador.
-            Prioritário a tudo para um administrador de um servidor é a proteção dos dados, para que isso aconteça e tenhamos os dados seguros devemos configurar as permissões NTFS, que controla quem vê, edita ou apaga ficheiros e quem pode executar ficheiros executáveis e scripts, existe também Firewalls e Anti virus qe actuam contra software malicioso e acessos não autorizados. Como boas práticas a nivel geral, devemos manter sempre os softwares atualizados, e diria eu que talvez tão ou mais importante que isso, são os backups, para que em caso de acontecer alguma coisa ao servidor tenhamos sempre forma de não perder dados.
-            Em conclusão, esta ufcd permitiu-me compreender que uma rede local não é apenas um conjunto de cabos, mas um ecossistema organizado que exige rigor no planeamento e vigilância constante na segurança. A nível pessoal veio-me clarificar algumas dúvidas que tinha, nesta matéria de redes, porque sempre fiz muita confusão em configurações de redes locais simples. Neste momento consigo gerir a minha própria rede em casa de uma forma mais controlada e aproveito para por em prática o que aprendi. Para o futuro como programador é uma matéria essencial para poder desenvolver software com ligação a servidores e prevenir possiveis falhas que possam ocorrer.</p>
-        </section>
-        <section id="ufcd_0802" class="boxes">
-            <h2>UFCD 0802 - Processamento Computacional</h2>
-            <p>Nesta UFCD foram abordados os principais conceitos relacionados com o processamento computacional, permitindo compreender como um computador está organizado e como os seus componentes trabalham em conjunto para executar tarefas.
-            Começámos por estudar a organização de um computador, analisando a forma como o hardware e o software interagem. Foi explicado que o computador funciona segundo um modelo lógico de entrada, processamento e saída, onde os dados são introduzidos, tratados pelo sistema e transformados em informação útil.
-            De seguida, foram analisados os componentes de um computador, com destaque para os dispositivos de entrada (teclado, rato), saída (monitor, impressora) e armazenamento. Foi também abordado o papel da memória principal e dos dispositivos de armazenamento secundário, essenciais para guardar dados e programas.
-            Outro tema importante foi o estudo das unidades de memória, nomeadamente o bit, byte, kilobyte, megabyte, gigabyte e terabyte, bem como a distinção entre memória RAM, utilizada para armazenar temporariamente dados e programas em execução, e memória ROM, responsável por guardar instruções permanentes de arranque do sistema.
-            Por fim, foi analisado o processador, considerado o “cérebro” do computador. Estudou-se a sua constituição, destacando a Unidade de Controlo, que coordena todas as operações, e a Unidade Lógica e Aritmética, responsável pelos cálculos e decisões lógicas. Foi também abordado o ciclo de execução das instruções (buscar, descodificar e executar) e a importância do clock no desempenho do sistema.
-            Em conclusão, esta UFCD permitiu adquirir conhecimentos essenciais sobre o funcionamento interno do computador, fundamentais tanto para o uso consciente da tecnologia como para futuras áreas ligadas à informática e programação. </p>
-        </section>
+        </div>
+    </div>
     </main>
-    
+    <script src="../pra_diogo/JavaScript/ufcds.js"></script>
+    <script src="../pra_diogo/JavaScript/pesquisa.js"></script>
 </body>
 </html>
