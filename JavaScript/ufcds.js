@@ -27,5 +27,6 @@ const ufcds = {
   "10790": "ufcd/10790.html",
   "10672": "ufcd/10672.html",
   "10872": "ufcd/10872.html",
-  "10871": "ufcd/10871.html"
+  "10871": "ufcd/10871.html",
+  "10789": "ufcd/10789.html"
 };
